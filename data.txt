@@ -1,0 +1,8 @@
+
+   
+{
+    "timestamp": "date",
+    "cpu": "float",
+    "mem": "float",
+    "pid": "string"
+}
