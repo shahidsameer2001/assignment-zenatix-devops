@@ -24,9 +24,9 @@ def warn(pid, memory, cpu, now):
 
 
 def monitor(line):
-    sp = line.split()
+    ln = line.split()
     now = datetime.now()
-    return warn(sp[0], sp[1], sp[2], now)
+    return warn(ln[0], ln[1], ln[2], now)
 
 
 while True:
